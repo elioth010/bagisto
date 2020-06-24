@@ -23,5 +23,12 @@ return [
             'name' => 'Velocity',
             'parent' => 'default'
         ],
+
+        'takul' => [
+            'views_path' => 'resources/themes/takul/views',
+            'assets_path' => 'public/themes/velocity/assets',
+            'name' => 'Takul',
+            'parent' => 'default'
+        ],
     ]
 ];
