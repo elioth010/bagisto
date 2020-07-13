@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'default' => 'default',
+    'default' => 'takul',
 
     'themes' => [
         'default' => [
@@ -26,7 +26,7 @@ return [
 
         'takul' => [
             'views_path' => 'resources/themes/takul/views',
-            'assets_path' => 'public/themes/velocity/assets',
+            'assets_path' => 'public/themes/takul/assets',
             'name' => 'Takul',
             'parent' => 'default'
         ],
