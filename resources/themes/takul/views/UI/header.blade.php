@@ -137,7 +137,7 @@
                                             @elseif ($locale->code == "en")
                                                 <img
                                                     class="language-logo"
-                                                    src="{{ asset('/themes/velocity/assets/images/flags/en.png') }}" />
+                                                    src="{{ asset('/themes/takul/assets/images/flags/en.png') }}" />
                                             @endif
                                         </div>
                                         <span>{{ $locale->name }}</span>

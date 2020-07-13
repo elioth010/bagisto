@@ -95,14 +95,14 @@ class Install extends Command
             Artisan::call('key:generate');
             $this->envUpdate('APP_URL=http://localhost', ':8000');
 
-            $locale = $this->choice('Please select the default locale or press enter to continue', ['ar', 'en', 'fa', 'nl', 'pt_BR','es'], 1);
+            $locale = $this->choice('Please select the default locale or press enter to continue', ['ar', 'en', 'fa', 'nl', 'pt_BR'], 1);
             $this->envUpdate('APP_LOCALE=', $locale);
     
             $TimeZones = timezone_identifiers_list();
             $timezone = $this->anticipate('Please enter the default timezone', $TimeZones, date_default_timezone_get());
             $this->envUpdate('APP_TIMEZONE=', $timezone);
 
-            $currency = $this->choice('Please enter the default currency', ['USD', 'EUR','GTQ'], 'USD');
+            $currency = $this->choice('Please enter the default currency', ['USD', 'EUR'], 'USD');
             $this->envUpdate('APP_CURRENCY=', $currency);
 
 

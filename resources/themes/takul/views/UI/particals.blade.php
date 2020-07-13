@@ -51,7 +51,7 @@
         @if ($logo = core()->getCurrentChannel()->logo_url)
             <img class="logo" src="{{ $logo }}" />
         @else
-            <img class="logo" src="{{ asset('themes/velocity/assets/images/logo-text.png') }}" />
+            <img class="logo" src="{{ asset('themes/takul/assets/images/logo-text.png') }}" />
         @endif
     </a>
 </script>

@@ -18,7 +18,7 @@
                 @if ($localeImage)
                     <img src="{{ asset('/storage/' . $localeImage) }}" onerror="this.src = '{{ asset($localeImage) }}'" />
                 @elseif (app()->getLocale() == 'en')
-                    <img src="{{ asset('/themes/velocity/assets/images/flags/en.png') }}" />
+                    <img src="{{ asset('/themes/takul/assets/images/flags/en.png') }}" />
                 @endif
             </div>
 

@@ -27,7 +27,7 @@ return [
         'takul' => [
             'views_path' => 'resources/themes/takul/views',
             'assets_path' => 'public/themes/takul/assets',
-            'name' => 'Takul',
+            'name' => 'takul',
             'parent' => 'default'
         ],
     ]
