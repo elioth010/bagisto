@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="{{ asset('themes/takul/assets/css/velocity-admin.css') }}">
